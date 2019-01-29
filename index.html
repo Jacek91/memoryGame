@@ -1,16 +1,38 @@
 <!DOCTYPE html>
 <html lang="pl-PL">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Memory Game</title>
-    <link rel="stylesheet" href="css/sweetalert2.min.css" />
-    <link rel="stylesheet" href="css/main.css" />
-  </head>
-  <body>
-    
-    <script src="js/sweetalert2.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="css/sweetalert2.min.css" />
+  <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="logo"></div>
+    <div class="board">
+      <div class="game"></div>
+      <div class="table">
+        <div class="score">
+          <div>
+            <p class="timer">Time left:</p>
+            <span class="timeCounter">30 s</span>
+          </div>
+          <div>
+            <p class="moves">Moves:</p>
+            <span class="movesCounter">0</span>
+          </div>
+        </div>
+        <div class="buttons">
+          <button class="start">START</button>
+          <button class="restart">RESTART</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/sweetalert2.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="js/app.js"></script>
+</body>
 </html>
