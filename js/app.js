@@ -151,7 +151,7 @@ $(function () {
         newGame();
     };
 
-    start.on("click", timer);
+    start.one("click", timer);
     restart.on("click", reset);
 
     newGame();
