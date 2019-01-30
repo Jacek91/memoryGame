@@ -7,4 +7,5 @@ Classic memory game build with:
 * jQuery,
 * GULP.
 
-# Live Demo:  https://jacek91.github.io/memoryGame/
+# Live Demo:  
+https://jacek91.github.io/memoryGame/
